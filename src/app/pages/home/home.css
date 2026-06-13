@@ -4,7 +4,7 @@
    crop is biased upward to keep the dome and façade framed on wide viewports. */
 .hero-photo {
   background-color: oklch(30% 0.08 30);
-  background-image: url('/img/house-of-worship.png');
+  background-image: url('/img/daytona-beach.jpg');
   background-size: cover;
   background-position: center 18%;
 }
@@ -15,9 +15,7 @@
   background:
     linear-gradient(
       165deg,
-      color-mix(in oklch, var(--color-neutral) 88%, transparent) 0%,
-      color-mix(in oklch, var(--color-primary) 82%, transparent) 55%,
-      color-mix(in oklch, var(--color-neutral) 90%, transparent) 100%
+      color-mix(in oklch, #003438 90%, transparent) 100%
     );
 }
 
